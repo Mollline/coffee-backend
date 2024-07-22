@@ -5,7 +5,7 @@ export const createCategory = async (
   _: CreateCategoryInput,
   { input }: { input: CreateCategoryInput }
 ) => {
-  console.log("hello");
+  console.log("hello guys");
   const { name } = input;
   console.log({ name });
   try {
